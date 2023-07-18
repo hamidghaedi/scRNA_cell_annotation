@@ -5,7 +5,7 @@
 
 In this repo, we will be doing:
 
-(i) Assigning cell labels from reference data: or Automatic cell annotation for bladder cancer dataset used in [scRNA-seq analysis] (https://github.com/hamidghaedi/scRNA_seq-analysis) using the reference data from [Tabula Sapiens] (https://www.science.org/doi/full/10.1126/science.abl4896?af=R). 
+(i) Assigning cell labels from reference data: or Automatic cell annotation for bladder cancer dataset used in [scRNA-seq analysis](https://github.com/hamidghaedi/scRNA_seq-analysis) using the reference data from [Tabula Sapiens](https://www.science.org/doi/full/10.1126/science.abl4896?af=R). 
 
 (ii) Assigning cell labels to sub-cluster of epithelial cells from gene sets
 
