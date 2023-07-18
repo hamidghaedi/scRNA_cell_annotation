@@ -142,7 +142,7 @@ with_split <- DimPlot(su,
         
 no_split + with_split
 ```
-![]()
+![PCA_batch_id.png](https://github.com/hamidghaedi/scRNA_cell_annotation/blob/main/image/PCA_batch_id.png)
 
 So there is no difference between batches , so we can proceed with file as is. 
 
@@ -183,5 +183,5 @@ tab <- table(query_su$clusters, query_su$singleR_pred)
 
 pheatmap(log2(tab+10), color=colorRampPalette(c("white", "blue"))(101))
 ```
-![]()
+![heatmap_manual_labels_TS_labels.png](https://github.com/hamidghaedi/scRNA_cell_annotation/blob/main/image/heatmap_manual_labels_TS_labels.png)
 
