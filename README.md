@@ -10,7 +10,7 @@ In this repo, we will be doing:
 (ii) Assigning cell labels to sub-cluster of epithelial cells from gene sets
 
 
-# (i) Assigning cell labels from bladder reference data in Tabula Sapiens
+# (i) Assigning cell labels using a ref dataset
 
 ```r 
 # loading libraries
@@ -36,6 +36,7 @@ file_name <- "TS_Bladder.h5ad"
 ```
 
 ## Reading and processing ref data
+in python:
 ```python 
 # import libs
 import scanpy as sc
@@ -183,5 +184,7 @@ tab <- table(query_su$clusters, query_su$singleR_pred)
 
 pheatmap(log2(tab+10), color=colorRampPalette(c("white", "blue"))(101))
 ```
+As it showed in the below plot, the overlap between Tabula Sapiens labels and our manual labels is significant:
+
 ![heatmap_manual_labels_TS_labels.png](https://github.com/hamidghaedi/scRNA_cell_annotation/blob/main/image/heatmap_manual_labels_TS_labels.png)
 
